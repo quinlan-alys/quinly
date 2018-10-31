@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>Quinly Designs</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,9 +19,14 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
 
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
   </head>
 
@@ -30,7 +35,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="quinly_logo" src="img/new_logo.png" alt="quinly small logo"/></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -46,9 +51,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
@@ -60,24 +65,25 @@
     <!-- Header -->
     <header class="">
         <div class="fullscreen-bg masthead">
-            <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+            <video loop muted autoplay poster="img/video_background.png" class="fullscreen-bg__video">
                 <source src="img/quinly_test_cropped.webm" type="video/webm">
                 <source src="img/quinly_test_cropped.mp4" type="video/mp4">
                 <source src="video/quinly_test_cropped.ogv" type="video/ogg">
-            
-            
-                </video>
+            </video>
                 <div class="container">
                     <div class="intro-text">
-                      <div class="intro-lead-in">Oh hello,</div>
-                      <div class="intro-heading text-uppercase">Fancy seeing you here</div>
-                      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+                       
+                     
+                      <div class="intro-heading text-uppercase">Considerate, Eclectic, Modern Design</div>
+                      <div class="intro-lead-in">It's kind of our thing</div>
+                      <div class="arrow bounce">
+                          <a class="fa fa-arrow-down fa-2x" href="#"></a>
+                        </div>
+                      <!-- <div href="#services" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" >It's kind of our thing</a> -->
                     </div>
-                  </div>
-
-        </div>
-    
-   
+                 </div>
+                 
+          </div>
     </header>
 
     
@@ -87,45 +93,51 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Services</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">How can we be of assistance to you?</h3>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">E-Commerce</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <div class="service_circle">
+              
+              <img src="img/content_create.png"/>
+            </div>
+            <h4 class="service-heading">Content Creation</h4>
+            <p class="text-muted">Need a photograph? A Video? An infograph? A super detailed doodle of a poodle? We got you covered. With a long history in working across multiple media, lucky for you, this is where Quinly excels!</p>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Responsive Design</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <div class="service_circle">
+                <img src="img/responsive_des.png"/>
+            </div>
+            <h4 class="service-heading">Responsive Web Design</h4>
+            <p class="text-muted">Wow your clients with a compelling new responsive website. We offer clean front-end development and captivating UI design. All backed with strategic site architecture planning and considerate UX. We specialize in Bootstrap template customization, Sqarespace, Shopify E-commerce stores and Wordpress integration for all of your CMS needs.</p>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <div class="service_circle">
+                <img src="img/brand_id.png"/>
+            </div>
+            <h4 class="service-heading">Brand Identity </h4>
+            <p class="text-muted">Take your buisness idea to the next level with a custom identity catered directly to your philosophies and ideas. We make your brand come to life. From Logos to typefaces, marketing campaign ads to craft beer bottle labels, we can get you there!</p>
           </div>
         </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+              <h3 class="p-5 text-muted center">Didn't quite see what you were looking for?</h3>
+
+              <a class="btn btn-primary btn-xl center text-uppercase js-scroll-trigger" href="#contact">Let's talk about it!</a>
+          </div>
+        </div>
+       
       </div>
     </section>
 
     <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio">
+    <section class="" id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-white">Here's what we're been up to</h3>
           </div>
         </div>
         <div class="row">
@@ -139,8 +151,8 @@
               <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Threads</h4>
-              <p class="text-muted">Illustration</p>
+              <h4>Avery Florence Website</h4>
+              <p class="text-muted">Branding, Web Design, Web Development</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -153,8 +165,8 @@
               <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Explore</h4>
-              <p class="text-muted">Graphic Design</p>
+              <h4>Fondation Arbour</h4>
+              <p class="text-muted">Web Design, UX/Site Architecture, Branding, Squarespace integration</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -167,8 +179,8 @@
               <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Finish</h4>
-              <p class="text-muted">Identity</p>
+              <h4>Remotastic</h4>
+              <p class="text-muted">UX/UI design, App design, Branding, Prototyping</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -181,8 +193,8 @@
               <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Lines</h4>
-              <p class="text-muted">Branding</p>
+              <h4>Lenny Music</h4>
+              <p class="text-muted">Branding, Identity, UI/Graphic Design</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -195,8 +207,8 @@
               <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Southwest</h4>
-              <p class="text-muted">Website Design</p>
+              <h4>Fundy Feast</h4>
+              <p class="text-muted">Website Design, UI Design, UX/Site Architecture, Branding, Identity</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -209,8 +221,8 @@
               <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Window</h4>
-              <p class="text-muted">Photography</p>
+              <h4>Pocket Sun</h4>
+              <p class="text-muted">Branding, Identity, Graphic Design, Logo</p>
             </div>
           </div>
         </div>
@@ -223,7 +235,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">About</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Wanna know more?</h3>
           </div>
         </div>
         <div class="row">
@@ -231,66 +243,68 @@
             <ul class="timeline">
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                  <img class="rounded-circle img-fluid" src="img/about/about_how_are_you.png" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>2009-2011</h4>
-                    <h4 class="subheading">Our Humble Beginnings</h4>
+                    <h4>2012-2016</h4>
+                    <h4 class="subheading">An Artistic Beginning</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">All art all the time. Quinlan spends her days knee deep in Foucault, and wrapping herself in plastic wrap as a form of performance art. The young artist continues to explore the realm of the digital world. It is then when she discovers the art of web development, alongside interactive web art. A new door opens...</p>
                   </div>
                 </div>
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                  <img class="rounded-circle img-fluid" src="img/about/about_red_academy.jpg" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>March 2011</h4>
-                    <h4 class="subheading">An Agency is Born</h4>
+                    <h4>September 2016</h4>
+                    <h4 class="subheading">The Future is Friendly</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">An ambitious university grad gets serious about tech. Attending a 3-month, high intensity coding bootcamp course in Vancouver, Quinlan obtains the necessary front-end devleopment and design skills to make it in the world of tech. And so she does... </p>
                   </div>
                 </div>
               </li>
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                  <img class="rounded-circle img-fluid" src="img/about/about_design.png" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>December 2012</h4>
-                    <h4 class="subheading">Transition to Full Service</h4>
+                    <h4>April 2017 - April 2018</h4>
+                    <h4 class="subheading">Learning from the All-Stars</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">Landing her first job in one of the most visited websites in the world, Quinlan is mentored by some of Canada's best developers. For a year, she absorbs all of that juicy development knowledge and makes magic happen with a team of project managers and designers.</p>
                   </div>
                 </div>
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                  <img class="rounded-circle img-fluid" src="img/about/about_quinly.png" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>July 2014</h4>
-                    <h4 class="subheading">Phase Two Expansion</h4>
+                    <h4>September 2018</h4>
+                    <h4 class="subheading">Back to Basics</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted"> Quinlan craves more art and imagemaking. She invents her own sort of bootcamp course involving self-directed design and web projects, unpaid learning experience from mentors and friends, and a revisit to academia (CalArts) to study graphics and UX/UI in depth. Feeling ambitiously entrepreneurial all her life, now is the time. Quinly Designs is born. </p>
                   </div>
                 </div>
               </li>
               <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>Be Part
-                    <br>Of Our
-                    <br>Story!</h4>
-                </div>
+                <a href="#contact" class="js-scroll-trigger"> 
+                   <div class="timeline-image">
+                    <h4>Be Part
+                      <br>Of The
+                      <br>Story!</h4>
+                  </div></a>
+              
               </li>
             </ul>
           </div>
@@ -299,11 +313,11 @@
     </section>
 
     <!-- Team -->
-    <section class="bg-light" id="team">
+    <!-- <section class="bg-light" id="team">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+            <h2 class="section-heading text-uppercase">Look who's talking</h2>
             <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
           </div>
         </div>
@@ -387,12 +401,18 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <!-- Clients -->
-    <section class="py-5">
+<!-- Clients -->
+     <!-- <section class="py-5">
       <div class="container">
+        <div class="row"> 
+          <div class="col-lg-12 text-center">
+            <h4>Look who's talking</h4>
+          </div>
+        </div>
         <div class="row">
+           
           <div class="col-md-3 col-sm-6">
             <a href="#">
               <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
@@ -415,7 +435,46 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+
+    <!-- testimonials -->
+
+    <section class="testimonials py-5 px-1 px-md-5 margin-top-xl">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h3 class="p-4 text-center font-weight-bold">Look who's talking</h3></h2>
+      
+              <div class="carousel-controls testimonial-carousel-controls">
+                <div class="control d-flex align-items-center justify-content-center prev mt-3"><i class="fa fa-chevron-left"></i></div>
+                <div class="control d-flex align-items-center justify-content-center next mt-3"><i class="fa fa-chevron-right"></i></div>
+      
+                <div class="testimonial-carousel">
+                  <div class="h5 font-weight-normal one-slide mx-auto">
+                    <div class="testimonial w-100 px-3 text-center d-flex flex-direction-column justify-content-center flex-wrap align-items-center">
+                      <div class="message text-center blockquote w-100">"They’ve been consistent throughout the years and grown together with us. Even as they’ve grown, they haven’t lost sight of what they do. Most of their key resources are still with them, which is also a testament to their organization."</div>
+                      <div class="blockquote-footer w-100 ">Ted, WebCorpCo</div>
+                    </div>
+                  </div>
+                  <div class="h5 font-weight-normal one-slide mx-auto">
+                    <div class="testimonial w-100 px-3 text-center  d-flex flex-direction-column justify-content-center flex-wrap align-items-center">
+                      <div class="message text-center blockquote w-100">"Our website uses Solodev to craft a website capable of representing its diverse residents. The website features a newsroom with the latest events, an interactive calendar, and a mobile app that puts the resources at a user’s fingertips."</div>
+                      <div class="blockquote-footer w-100 ">Jim Joe, WebCorpCo</div>
+                    </div>
+                  </div>
+                  <div class="h5 font-weight-normal one-slide mx-auto">
+                    <div class="testimonial w-100 px-3 text-center  d-flex flex-direction-column justify-content-center flex-wrap align-items-center">
+                      <div class="message text-center blockquote w-100">Solodev is a great company to partner with! We are extremely happy with the software, service, and support.</div>
+                      <div class="blockquote-footer w-100">Jim Joe, WebCorpCo</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
     <!-- Contact -->
     <section id="contact">
@@ -423,7 +482,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">We can't wait to work with you!</h3>
           </div>
         </div>
         <div class="row">
@@ -439,10 +498,10 @@
                     <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
                     <p class="help-block text-danger"></p>
                   </div>
-                  <div class="form-group">
+                  <!-- <div class="form-group">
                     <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
                     <p class="help-block text-danger"></p>
-                  </div>
+                  </div> -->
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
@@ -467,7 +526,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2018</span>
+            <span class="copyright">Copyright &copy; quinlydesigns.com 2018</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
@@ -714,6 +773,8 @@
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 
     <!-- Contact form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>

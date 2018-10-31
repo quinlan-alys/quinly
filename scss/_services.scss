@@ -3,3 +3,16 @@
   margin: 15px 0;
   text-transform: none;
 }
+
+.service_circle {
+  background-color: #958496;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+
+    img {
+      width: 150px;
+      margin: 20px 0 0 6px;
+    }
+}

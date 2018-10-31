@@ -47,5 +47,18 @@
     $('.navbar').removeClass('d-none');
   })
 
+
+// testimonials
+
+$(".testimonial-carousel").slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  arrows: true,
+  prevArrow: $(".testimonial-carousel-controls .prev"),
+  nextArrow: $(".testimonial-carousel-controls .next")
+});
+
 })(jQuery); // End of use strict
 
