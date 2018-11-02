@@ -46,7 +46,19 @@
   $('.portfolio-modal').on('hidden.bs.modal', function(e) {
     $('.navbar').removeClass('d-none');
   })
+ 
+// i want something similar button modal
+$('.contact-modal-btn').click(function() {
+  $('body').removeClass('modal-open');
+  $('.portfolio-modal').removeClass('show');
+  $('.portfolio-modal').removeClass('fade');
+  $('.portfolio-modal').css('display','none');
+  $('.modal-backdrop').css('display','none');
+  $('.navbar').removeClass('d-none');
+  $(window).scrollTop($('#contact').offset().top, 1000);
+  console.log('scrolling'); 
 
+});
 
 // testimonials
 

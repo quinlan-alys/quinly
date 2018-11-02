@@ -71,6 +71,7 @@
   .bts-popup-container .bts-popup-button {
     padding: 5px 25px;
     border: 2px solid white;
+    border-radius: 5px;
       display: inline-block;
     margin-bottom: 10px;
     font-family: 'Futura', sans-serif;
@@ -110,41 +111,7 @@
       }
 
   }
-//  i {
-//     position: absolute;
-//     top: 8px;
-//     right: 15px;
-//     width: 60px;
-//     height: 60px;
-//     color: white;
-//     z-index: 101;
-//   }
-//   .bts-popup-container .bts-popup-close::before, .bts-popup-container .bts-popup-close::after {
-//     content: '';
-//     position: absolute;
-//     top: 12px;
-//     left: 0;
-//     width: 16px;
-//     height: 3px;
-//     background-color: white;
-//   }
-//   .bts-popup-container .bts-popup-close::before {
-//     -webkit-transform: rotate(45deg);
-//     -moz-transform: rotate(45deg);
-//     -ms-transform: rotate(45deg);
-//     -o-transform: rotate(45deg);
-//     transform: rotate(45deg);
-//     left: 8px;
-//   }
-//   .bts-popup-container .bts-popup-close::after {
-//     -webkit-transform: rotate(-45deg);
-//     -moz-transform: rotate(-45deg);
-//     -ms-transform: rotate(-45deg);
-//     -o-transform: rotate(-45deg);
-//     transform: rotate(-45deg);
-//     right: 6px;
-//     top: 13px;
-//   }
+
   .is-visible .bts-popup-container {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -152,8 +119,25 @@
     -o-transform: translateY(0);
     transform: translateY(0);
   }
-//   @media only screen and (min-width: 1170px) {
-//     .bts-popup-container {
-//     //   margin: 8em auto;
-//     }
-//   }
+  @media only screen and (max-width: 400px) {
+      .bts-popup.is-visible {
+          height:130px;
+          bottom: 0;
+          width: 100%;
+          .bts-popup-container {
+            width: 100%;
+            h4 {
+                padding-top: 0;
+                font-size:16px;
+                margin-bottom: 0;
+            }
+            p {
+                padding: 0;
+                font-size: 12px;
+                margin-bottom: 0;
+                line-height: 15px;
+            }
+        }
+      }
+    }
+   
