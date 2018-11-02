@@ -4,7 +4,6 @@
     overflow: hidden;
     position: relative;
     max-height: 300px;
-    margin-bottom: 100px;
   }
   
   .one-slide,
@@ -32,6 +31,10 @@
     border-radius: 50%;
     border: 2px solid #958496;
     z-index: 1;
+
+    i {
+      color: #958496;
+    }
   }
   
   .prev {
@@ -54,6 +57,10 @@
       width: 25px;
       height: 25px;
       top: inherit;
+
+      i {
+        color: #958496;
+      }
     }
     .prev {
       left: 0;

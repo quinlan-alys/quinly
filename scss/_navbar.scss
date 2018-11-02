@@ -22,8 +22,9 @@
       color: darken($primary, 10%);
     }
     .quinly_logo {
-      height: 77px;
-      width: 232px;
+      height: 48px;
+      width: 145px;
+      margin-top: 5px;
     }
   }
   .navbar-nav {
@@ -57,6 +58,10 @@
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
+      .quinly_logo {
+        height: 77px;
+        width: 232px;
+      }
     }
     .navbar-nav {
       .nav-item {
@@ -72,6 +77,8 @@
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
+
+     
       }
 
       .nav-item a.nav-link {
