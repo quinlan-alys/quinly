@@ -75,15 +75,17 @@ $(".testimonial-carousel").slick({
 // popup 
 
   
-  window.onload = function (){
-    $(".bts-popup").delay(1000).addClass('is-visible');
-	}
+  window.setTimeout(
+     ($(".bts-popup").addClass('is-visible').offset().top > 200), 60000);
+   
+	
   
 	//open popup
-	$('.bts-popup-trigger').on('click', function(event){
-		event.preventDefault();
-		$('.bts-popup').addClass('is-visible');
-	});
+	// $('.bts-popup-trigger').on('click', function(event){
+	// 	event.preventDefault();
+  //   $('.bts-popup').addClass('is-visible');
+  //   console.log('hey');
+	// });
 	
 	//close popup
 	$('.bts-popup').on('click', function(event){
