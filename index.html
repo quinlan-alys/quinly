@@ -62,6 +62,18 @@
       </div>
     </nav>
 
+
+    <script>
+    // Can also be included with a regular script tag
+      import Typed from 'typed.js';
+
+      var options = {
+        strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+        typeSpeed: 40
+      }
+
+      var typed = new Typed(".typed-plugin", options);
+</script>
     <!-- Header -->
     <header class="">
         <div class="fullscreen-bg masthead">
@@ -74,7 +86,12 @@
                     <div class="intro-text">
                        
                      
-                      <div class="intro-heading text-uppercase">Considerate, Eclectic, Modern Design</div>
+                      <div class="intro-heading text-uppercase">Considerate, Eclectic, Modern 
+                          <div class="typed">
+                              
+                          </div>
+                         
+                      </div>
                       <div class="intro-lead-in">It's kind of our thing</div>
                       <div class="arrow bounce">
                           <a class="fa fa-arrow-down fa-2x" href="#"></a>
@@ -670,6 +687,7 @@
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
 
 
     <!-- Contact form JavaScript -->
