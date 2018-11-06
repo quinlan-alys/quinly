@@ -1,0 +1,31 @@
+.blog {
+
+    a:hover {
+        text-decoration: none;
+        font-style: italic;
+    }
+    .post-title {
+        color: #212529;
+        text-transform: uppercase;
+        margin: 10px auto;
+    }
+
+    .bts-popup.is-visible {
+        height: 146px;
+    }
+
+    .bts-popup-container{
+        h4 {
+        padding-top: 12px
+        }
+
+        .bts-popup-close {
+            top: 0;
+            right: 7px;
+        }
+    } 
+
+    // .post-subtitle {
+    //     font-
+    // }
+}

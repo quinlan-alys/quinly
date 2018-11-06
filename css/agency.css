@@ -1025,3 +1025,27 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     line-height: 15px;
   }
 }
+
+.blog a:hover {
+  text-decoration: none;
+  font-style: italic;
+}
+
+.blog .post-title {
+  color: #212529;
+  text-transform: uppercase;
+  margin: 10px auto;
+}
+
+.blog .bts-popup.is-visible {
+  height: 146px;
+}
+
+.blog .bts-popup-container h4 {
+  padding-top: 12px;
+}
+
+.blog .bts-popup-container .bts-popup-close {
+  top: 0;
+  right: 7px;
+}

@@ -76,7 +76,7 @@ $(".testimonial-carousel").slick({
 // typed text 
 
 $(".typed").typed({
-  strings: ["Web Design", "Graphic Design", "Copywriting", "Strategy"],
+  strings: ["Web Design", "Graphic Design", "Copywriting", "Strategy", "Brand Identity", "Logo Design", "Content Creation"],
   // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
   stringsElement: null,
   // typing speed
@@ -88,9 +88,9 @@ $(".typed").typed({
   // time before backspacing
   backDelay: 500,
   // loop
-  loop: false,
+  loop: true,
   // false = infinite
-  loopCount: 5,
+  loopCount: false,
   // show cursor
   showCursor: false,
   // character for cursor
