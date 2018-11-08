@@ -67,6 +67,7 @@ $(".testimonial-carousel").slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
+  speed: 1000,
   arrows: true,
   prevArrow: $(".testimonial-carousel-controls .prev"),
   nextArrow: $(".testimonial-carousel-controls .next")
@@ -76,7 +77,7 @@ $(".testimonial-carousel").slick({
 // typed text 
 
 $(".typed").typed({
-  strings: ["Web Design", "Graphic Design", "Copywriting", "Strategy", "Brand Identity", "Logo Design", "Content Creation"],
+  strings: ["Web Design", "Graphic Design", "Copywriting", "Strategy", "Brand Identity", "Logo Design", "Content Creation", "Poster Design", "UX/UI"],
   // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
   stringsElement: null,
   // typing speed
